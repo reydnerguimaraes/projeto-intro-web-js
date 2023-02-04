@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* HEADER GERAL */
+
+header{    
+    height: 10vh ;
+    padding-top: 1rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+li a{
+    color: black;
+}
+
+li{
+    list-style: none;    
+}
+
+#menu{    
+    display:flex;    
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+
+/* MAIN HOME */
+
+#background{
+    background-color: #f6c34a;
+    background-image: url(./imagens-projeto/background-hero.png)
+}
+
+
+
+/* ENSINO HOME */
+
+#ensino{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;    
+}
+
+main #ensino h1{
+    font-size: 3.5em;
+}
+
+main #ensino p{
+    font-size: 1.8em;
+}
+
+main #homebotao #botaohome a{
+    color: rgb(255, 255, 255);
+}
+
+#homebotao{
+    display: flex;
+    justify-content: center;
+}
+
+#botaohome{
+    background-color: black;
+    height: 10vh;
+    width: 25vw;
+    border-radius: 6px;  
+    font-size: 1.2em;    
+}
+
+/* SOBRE NOS HOME*/
+
+#sobrenos{
+    background-color: black;
+    color: white;
+    margin-top: 25vh;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #sobrenos h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+main #sobrenos p{
+    text-align: center;
+    margin: 35px 300px ;
+}
+
+
+/* DEPOIMENTOS HOME*/
+
+#depoimentos{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 70vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    padding: 0 0 50px;
+}
+
+#divcards{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+main #depoimentos h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+
+.cards{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    height: 43vh;
+    width: 15vw;
+    text-align: center;
+}
+
+/* MAIN CURSOS */
+
+#section-cursos{
+    background-color: #f6c34a;
+    display: flex;
+    height: 45vh;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+}
+
+main #curso-botao #botao-contato a{
+    color: white;
+}
+
+.cardscursos{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    border: 1px solid black;    
+    gap: 1rem;
+    border-radius: 10px;
+    height: 35vh;
+    width: 16vw;       
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+}
+
+#curso-botao{
+    background-color: #f6c34a;
+    display: flex;
+    justify-content: center;
+    height: 18vh;
+}
+
+#botao-contato{
+    background-color: black;
+    height: 10vh;
+    width: 25vw;
+    border-radius: 6px;  
+    font-size: 1.2em; 
+}
+
+#curso-modulo{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 150px 0;
+    gap: 1rem;
+    font-size: 0.845rem;
+}
+
+.card-modulo{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 100vh ;
+}
+
+.titulo-modulo{
+    width: 32%;    
+}
+
+
+/* MAIN CONTATO */
+
+.section-formulario{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 6%;    
+}
+
+.formulario{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form h2{
+    padding: 0 0 20px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.formulario form input{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 5vh;
+}
+
+.formulario form label{
+    padding: 8px 0 0;
+}
+
+.formulario form p{
+    padding: 8px 0 0;
+}
+
+.formulario form textarea{
+    resize: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.botao-enviar{
+    border-radius: 10px;
+    background-color: #f6c34a;
+    height: 8vh;
+    width: 25vw;
+    margin:2vh;
+    border: none;
+}
+
+
+/* ADM TURMAS */
+
+
+
+.main-adm{
+    display: flex;    
+}
+
+.buscar{
+    margin-top: 5rem;
+}
+
+.container-turmas .buscar #digitar{
+    border:1px solid black ;
+    height: 5vh;
+    width: 20vw;
+}
+
+#botao-buscar{
+    border-radius: 5px;
+    background-color: #000000;
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    color: white;
+}
+
+.area-adm{
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+}
+
+.main-adm .area-adm ul li a{
+    color: #959595;
+}
+
+.main-adm .area-adm ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 30px 20px;
+}
+
+.container-turmas{
+    background-color: #f6c34a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section-turmas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    padding: 4rem 5rem;
+}
+
+
+.card-turmas{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    display: flex; 
+    flex-direction: column;
+    height: 28vh;
+    width: 15vw;
+    border-radius: 12px;
+    padding: 0.65rem ;    
+    margin: 1rem;
+    font-size: 0.9rem;
+    gap: 1rem;
+}
+
+
+/* MADM MATRICULAS */
+
+
+.adm-matricula{
+    background-color: #f6c34a;
+    display: flex;
+    justify-content: start;    
+    padding: 4rem 0 10rem 4rem;
+    height: 80vh;
+    width: 90vw;
+}
+
+
+.adm-matricula form{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 25vw;
+    padding: 2rem;
+    gap: 1rem;    
+}
+
+.adm-matricula form input{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 5vh;
+}
+
+.botao-matricular p{
+    color: white;
+}
+
+.botao-matricular{
+    background-color: #000000;
+    border: none;
+    border-radius: 9px;
+    height: 9vh;
+}
+
+
+
+/* ADM FINANCEIRO */
+
+
+.adm-financeiro{
+    background-color: #f6c34a;
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+    padding: 4rem 0 0 4rem;
+    height: 95vh;
+    width: 90vw;
+}
+
+.financeiro-aluno{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 25vw;
+    gap: 0.6rem;
+}
+
+.financeiro-aluno label{
+    padding: 0 0 0.2rem;
+}
+
+.financeiro-aluno input{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 5vh;
+    margin-bottom: 2rem;
+}
+
+.botao-financeiro{
+    background-color: #000000;
+    margin-top: 1.5rem; 
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.botao-financeiro p{
+    color: white ;
+    font-size: 1rem;
+}
+
+.relatorio-aluno{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    width: 25vw;
+}
+
+.relatorio-aluno label{
+    padding: 0 0 0.2rem;
+}
+
+.relatorio-aluno input{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 5vh;
+
+}
+
+.botao-relatorio{
+    background-color: #000000;
+    margin-top: 1.5rem;
+    height: 10vh;
+    border-radius: 10px; 
+}
+
+.botao-relatorio p{
+    color: white;
+}
+
+
+/* FOOTER GERAL */
+
+footer{    
+    border-top: 3px solid black;
+    background-color: #f6c34a;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;     
+}
+
+footer #endereco h3{
+    margin: 1rem 0;    
+}
+
+iframe{
+    height: 25vh;
+    width: 20vw;
+    margin-bottom: 1rem;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+footer #links ul li{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+
+
+footer #redes h3{
+    margin-top: 3.6rem;
+    text-align: center;
+}
+
+#imagens-redes{    
+    display:flex;
+    height: 4vh;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#arearestrita{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3.6rem;
+}
+
+footer #arearestrita ul li{
+    margin: 0.5rem 0 0.5rem 0;
+}

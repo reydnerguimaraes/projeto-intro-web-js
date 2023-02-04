@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <title>adm-matriculas</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <header>
+        <a href="./home.html">
+            <img src="./imagens-projeto/Frame 2.png" alt="">
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="./home.html"><b>Home</b></a></li>
+                <li><a href="./cursos.html"><b>Cursos</b></a></li>
+                <li><a href="./contato.html"><b>Contato</b></a></li>
+                <li><a href="./adm-turmas.html"><b>Area ADM</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-adm">
+        <aside class="area-adm">
+            <ul>
+                <li><a href="./adm-turmas.html"><b>Turmas</b></a></li>
+                <li><a href="./adm-matriculas.html"><b>Matriculas</b></a></li>
+                <li><a href="./adm-financeiro.html"><b>Financeiro Alunos</b></a></li>
+            </ul>
+        </aside>
+        <section class="adm-matricula">
+            <form action="#">
+                <h2>Matrículas</h2>
+                <label for="nome"><b>Nome:</b></label>
+                <input placeholder="Nome Completo" type="text" name="nome" id="nome" required>
+
+                <label for="curso"><b>Curso:</b></label>
+                <input placeholder="Curso" type="text" name="curso" id="Curso" required>
+                
+                <label for="turma"><b>Turma:</b></label>
+                <input placeholder="Turma" type="text" name="turma" id="turma" required>
+
+                <label for="nParcela"><b>Número de Parcelas:</b></label>
+                <input type="number" name="nParcela" id="nParcela" required>
+
+                <button class="botao-matricular" type="submit"><p>Matricular Aluno</p></button>
+              
+            </form>
+        </section>           
+    </main>
+    <footer>
+        <div id="endereco">       
+            <a href="./home.html">
+                <img src="./imagens-projeto/Frame 2.png" alt="">
+                </a>     
+            <h3>Endereço</h3>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9964142022304!2d-46.70069624997273!3d-23.568572267667314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a7c7ace4c3%3A0x586759cab9b5c95a!2sR.%20Pais%20Leme%2C%20215%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005424-150!5e0!3m2!1spt-BR!2sbr!4v1674527141263!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p>R. Pais Leme, 215. CEP 05424-150 - Pinheiros</p>
+        </div>
+        <div id="links">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./cursos.html">Cursos</a></li>
+                <li><a href="https://www.blogger.com">Blog</a></li>
+                <li><a href="./contato.html">Fale Conosco</a></li>
+                <li>Termos e condições</li>
+                <li>Politica de privacidade</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <div id="redes">
+            <h3>Redes sociais</h3>
+            <div id="imagens-redes">
+                <a href="https://www.instagram.com"><img src="./imagens-projeto/icon-ig 1.svg" alt=""></a>
+                <a href="https://br.linkedin.com"><img src="./imagens-projeto/icon-linkedin 1.svg" alt=""></a>
+                <a href="https://twitter.com"><img src="./imagens-projeto/icon-twitter 1.svg" alt=""></a>
+                <a href="https://www.facebook.com"><img src="./imagens-projeto/icon-facebook 1.svg" alt=""></a>
+            </div>
+        </div>
+        <div id="arearestrita">
+            <h3>Àrea restrita</h3>
+            <div>
+                <ul>
+                    <li><a href="./adm-turmas.html">Área administrativa</a></li>
+                    <li>Espaço do Aluno</li>
+                 </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
